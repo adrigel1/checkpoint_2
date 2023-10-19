@@ -1,0 +1,148 @@
+body{
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  padding: 125px;
+}
+.list__white{
+  background: #FFF;
+}
+.list__black{
+  background: #121212;
+}
+.interior {
+  margin-top: 30px;
+  width: 1150px;
+height: 500px;
+background-image: url('/resourses/inerior.png');
+padding-top: 379px;
+padding-left: 40px;
+
+}
+.image-text{
+  width: 430px;
+ color: #FFF;
+font-size: 20px;
+font-weight: 400px;
+line-height: 27px;
+letter-spacing: -0.6px;
+height: 81px;
+}
+.services{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: #AD1818;
+  color: #FFF;
+}
+h1{
+  width: 956px;
+font-size: 60px;
+font-style: normal;
+line-height: 60px;
+letter-spacing: -1.8px;
+}
+h2{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+p.description {
+  width: 1048px;
+  margin-top: 30px;
+font-size: 45px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.35px;
+text-align: left;
+}
+.item__interior{
+  width: 1150px;
+  height: 2122px;
+}
+.item__image{
+  margin-top: 30px;
+  width: 1150px;
+height: 450px;
+}
+.item__title {
+margin-top: 15px;
+margin-bottom: 15px;
+font-size: 30px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.9px;
+}
+.item__link {
+
+margin-left: 2px;
+margin-bottom: 90px;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+color: #AD1818;
+}
+
+.link__services{
+  display: block;
+  margin-top: 90px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  width: 100%;
+  font-size: 30px;
+  height: 153px;
+  line-height: normal;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  border-radius: 5px;
+  text-align: center;
+  border: solid 1px #AD1818 ;
+  color: #AD1818;
+  }
+.link__services:hover {
+    color: #FFF;
+    background-color: #AD1818;
+  }
+.list__black__services{
+
+  height: 1846px;
+  width: 100%;
+    padding-bottom: 150px;
+    margin: 0 auto;
+
+}
+.black__services__title{
+  margin-bottom: 34px;
+   font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.black__services__item__img{
+  margin-bottom: 15.02px;
+  width: 1163.964px;
+height: 270.293px;
+}
+.black__services__item__paragraph{
+  margin-bottom: 60.07px;
+  width: 547.569px;
+height: 41.044px;
+font-size: 30px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.9px;
+color: #FFF;
+}
