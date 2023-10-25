@@ -4,16 +4,20 @@ body{
 }
 .container {
   margin: 0 auto;
-  width: 1400px;
-  padding: 0;
+  max-width: 1180px;
+  padding: 0 15px;
 }
-.list__white{
+.hero{
   background: #FFF;
+  margin: 0;
+  padding: 0;
 }
 .services__black{
   background: #121212;
+  margin: 0;
+  padding: 0;
 }
-.interior {
+.hero__img {
   position: relative;
   margin-top: 30px;
   width: 1150px;
@@ -21,7 +25,7 @@ height: 500px;
 background-image: url('../resourses/inerior.png');
 
 }
-.image-text{
+.hero__img-text{
   position: absolute;
   bottom: 40px;
   left: 40px;
@@ -33,7 +37,19 @@ line-height: 27px;
 letter-spacing: -0.6px;
 height: 81px;
 }
-.services{
+.about__title {
+  margin-top: 150px;
+}
+.about__text {
+  width: 1048px;
+  margin-top: 30px;
+font-size: 45px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.35px;
+text-align: left;
+}
+.about__button{
   display: inline-block;
   margin-top: 30px;
   padding: 20px 40px;
@@ -58,25 +74,23 @@ h2{
 a{
   text-decoration: none;
 }
-p.description {
-  width: 1048px;
-  margin-top: 30px;
-font-size: 45px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -1.35px;
-text-align: left;
+.projects__title{
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
-.item__interior{
+.projects__item{
   width: 1150px;
   height: 2122px;
 }
-.item__image{
+.projects__box{
+  margin-bottom: 90px;
+}
+.projects__imag{
   margin-top: 30px;
   width: 1150px;
 height: 450px;
 }
-.item__title {
+.projects__paragraph {
 margin-top: 15px;
 margin-bottom: 15px;
 font-size: 30px;
@@ -84,10 +98,8 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.9px;
 }
-.item__link {
-
-margin-left: 2px;
-margin-bottom: 90px;
+.projects__link {
+  margin-left: 2px;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
@@ -95,10 +107,8 @@ letter-spacing: -0.6px;
 color: #AD1818;
 }
 
-.link__services{
+.projects__services{
   display: block;
-  margin-bottom: 159px;
-  margin-top: 90px;
   padding-top: 56px;
   padding-bottom: 56px;
   width: 1150px;
@@ -112,19 +122,21 @@ color: #AD1818;
   border: solid 1px #AD1818 ;
   color: #AD1818;
   }
-.link__services:hover {
+.projects__services:hover {
     color: #FFF;
     background-color: #AD1818;
   }
-.list__black__services{
-
+  .service {
+    margin-top: 159px;
+    background-color: #121212;
+  }
+.service__container{
   height: 1846px;
   width: 100%;
     padding-bottom: 150px;
     margin: 0 auto;
-
 }
-.black__services__title{
+.services__title{
   padding-top: 151px;
   margin-bottom: 34px;
    font-size: 18px;
@@ -135,12 +147,12 @@ color: #AD1818;
     text-transform: uppercase;
     color: #FFF;
 }
-.black__services__item__img{
+.services__img{
   margin-bottom: 15.02px;
   width: 1163.964px;
 height: 270.293px;
 }
-.black__services__item__paragraph{
+.services__paragraph{
   margin-bottom: 60.07px;
   width: 547.569px;
 height: 41.044px;
