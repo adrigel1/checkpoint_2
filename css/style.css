@@ -5,24 +5,26 @@ body{
 .container {
   margin: 0 auto;
   width: 1400px;
-  padding: 125px;
+  padding: 0;
 }
 .list__white{
   background: #FFF;
 }
-.list__black{
+.services__black{
   background: #121212;
 }
 .interior {
+  position: relative;
   margin-top: 30px;
   width: 1150px;
 height: 500px;
 background-image: url('../resourses/inerior.png');
-padding-top: 379px;
-padding-left: 40px;
 
 }
 .image-text{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
   width: 430px;
  color: #FFF;
 font-size: 20px;
@@ -95,10 +97,11 @@ color: #AD1818;
 
 .link__services{
   display: block;
+  margin-bottom: 159px;
   margin-top: 90px;
   padding-top: 56px;
   padding-bottom: 56px;
-  width: 100%;
+  width: 1150px;
   font-size: 30px;
   height: 153px;
   line-height: normal;
@@ -122,6 +125,7 @@ color: #AD1818;
 
 }
 .black__services__title{
+  padding-top: 151px;
   margin-bottom: 34px;
    font-size: 18px;
     font-style: normal;
